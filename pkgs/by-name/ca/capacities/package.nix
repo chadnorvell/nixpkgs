@@ -7,11 +7,12 @@
 }:
 let
   pname = "capacities";
-  version = "1.57.24";
+  version = "1.60.1";
+
 
   src = fetchurl {
-    url = "https://web.archive.org/web/20260110164323/https://capacities-desktop-app.fra1.cdn.digitaloceanspaces.com/Capacities-1.57.24.AppImage";
-    hash = "sha256-BWan10ItF/hKEMGG/m32QgjySLReqJnrtq5z0k9oYcA=";
+    url = "https://2vks4.upcloudobjects.com/capacities-desktop-app/Capacities-1.60.1.AppImage";
+    hash = "sha256-N4CsuJtwNSiqZaHOTDo5G0piv35WijWzh0BZ4ewqK8Q=";
   };
 
   appimageContents = appimageTools.extractType2 {
